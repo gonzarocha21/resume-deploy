@@ -1,0 +1,29 @@
+.App-footer {
+  height: 100px;
+  /*min-height: 100vh;*/
+  display: flex;
+  flex-direction: row;
+  text-align: bottom;
+  /*align-items: center;*/
+  justify-content: center;
+  font-size: 15px;
+  color: white;
+  background-image: url("https://images.pexels.com/photos/1252869/pexels-photo-1252869.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  /*background-attachment: fixed;
+    background-position: bottom;*/
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #cccccc;
+  margin-top: 20px;
+}
+
+.texto-footer {
+  align-self: flex-end;
+}
+
+@media (min-width: 768px) {
+  .App-footer {
+    height: 200px;
+  }
+}

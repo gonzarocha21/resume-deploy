@@ -1,0 +1,31 @@
+.mi-contenedor-2 {
+  /*margin-top: 100px;*/
+  margin: auto;
+  padding: 10px;
+}
+
+.hijo1 {
+  width: 100%;
+}
+
+.hijo2 {
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .mi-contenedor-2 {
+    /*margin-top: 100px;*/
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .hijo1 {
+    width: 50%;
+  }
+
+  .hijo2 {
+    width: 35%;
+    margin-left: 15%;
+  }
+}
